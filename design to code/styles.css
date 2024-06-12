@@ -1,0 +1,184 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+
+footer {                                     /* selector for footer */
+   background-color: rgb(45, 49, 77);     /*  */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 1440px;
+   height: 125px;
+}
+li {                                         /* selector for list items */
+   list-style-type: none;
+   color: rgb(149, 151, 165);
+}
+
+header {                                     /* selector for header */
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   max-width: 1440px;
+   justify-content: space-around;
+   margin: 0 auto;
+
+
+}
+html {                                        /* selector for html */
+   color: rgb(149, 151, 165);
+}
+
+h1, .logo, h3 {                              /* selector for h1, logo, and h3 */
+  color: rgb(45, 49, 77);
+}
+
+.container2 {                                /* selector for container 2 */
+  color: color:rgb(149, 151, 165);
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: center;
+
+}
+.footerul {                                  /* selector for footer ul */
+   display: flex;
+   flex-direction: column;
+}
+.container4footer {                          /* selector for for div which conatins the footer */
+   display: flex;
+   flex-direction: row;
+   /* background-color: rgb(45, 49, 77); */
+   /* max-width: 1440px; */
+   justify-content: center;
+}
+.containerinfooter {                         /* selector for the container of the footer */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 140px;
+
+} 
+button {                                     /* selector for buttons */
+   width: 190px;
+   height: 50px;
+   border-radius: 120px;
+   background: linear-gradient(#33D35E, #2AB6D9);
+   color: rgb(255, 255, 255);
+   border: none;
+}
+.headerul {                                  /* selector for header unordered list */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 425px;
+}
+.card-cont2 {                                /* selector for cards in container 2 div class */
+   width: 200px;
+}
+p {                                         /* selector for p */
+   font-size: 16px;
+   font-weight: 400;
+}
+h4 {                                        /* selector for h4 */
+   color: rgb(45, 49, 77);
+}
+.h1-cont1, .p-cont1 {                        /* selector for h1 and p in container 1 div class */
+   width: 400px;
+}
+
+.container3{
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.container3 h3{
+   max-width: 1440px;
+}
+.cont3-cards-wrap {                                /* selector for div class container 3 */
+   display: flex;
+   flex-direction: row;
+   max-width: 1000px;
+   justify-content: space-around;
+}
+.card-cont3 {                                /* selector for div cards in container 3 */
+   width: 200px;
+}
+.p-card-cont3 {                              /* selector for p in cards in container 3 */
+   font-size: 12px;
+}
+h5 {                                        /* selector for h5 */
+   color: rgb(45, 49, 77);
+}
+.hero-container {                            /* selector for  div class container 1 */
+   width: 1440px;
+   display: flex;
+   /* flex-direction: column; */
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+
+}
+.why-div {                                   /* selector for div class why div */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 1440px;
+   align-items: center;
+   /* display: inline-block; */
+
+}
+.p-why {                                     /* selector for p in why div */
+   width: 550px;
+}
+html {                                        /* selector for html */
+   
+}
+h2 {                                        /* selector for h2 */
+   color:rgb(45, 49, 77);
+}
+.p-cont2 {
+   width : 175px;
+}
+.containerparentof3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+}
+.containerparentof2 {
+   /* max-width: 1440px; */
+   display: flex;
+   justify-content: center;
+
+}
+h5:hover {
+   color:rgb(48, 200, 143)
+}
+.li4footer:hover {
+   color:rgb(48, 200, 143)
+}
+.li4footer {
+   padding: 4px;
+}
+.small4continfooter {
+   padding-top: 5px;
+}
+.Binfootercont {
+   width: 150px;
+   height: 35px;
+   /* padding-bottom: 10px; */
+}
+.div4footerB {
+   padding-bottom: 10px;
+}
+.div4headerin {
+   display:flex;
+   align-items: center;
+}
+ .logo-footer {
+ color: rgb(255, 255, 255)
+}
+body {
+   font-family: "Public Sans";
+}
