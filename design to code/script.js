@@ -1,18 +1,8 @@
-const ulElement = document.querySelector('.headerul');
-const linkElement = document.querySelector('a[href="#"]');
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
 
-ulElement.addEventListener("click", (e) => {
-	let imgSrc = ulElement.children[0].src;
-	if (imgSrc.includes("icon-hamburger")) {
-		ulElement.children[0].src = "/images/icon-close.svg";
-		linkElement.classList.add("set__overlay");
-	} else if (imgSrc.includes("icon-close")) {
-		ulElement.children[0].src = "/images/icon-hamburger.svg";
-		linkElement.classList.remove("set__overlay");
-	}
+menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('active');
+    menu.classList.toggle('active');
 });
-ulElement.addEventListener("click", () => {
-    ulElement.toggle("active");
-    linkElement.toggle("active");
-})
 
