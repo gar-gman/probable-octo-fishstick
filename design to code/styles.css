@@ -247,7 +247,63 @@ svg:not(:root) {
 }
 
 /* xs */
-@media (min-width: 475px){}
+@media  (max-width: 375px){
+
+
+   header { 
+      display: flex;
+      justify-content: space-between;
+      height:50px;
+      align-items: center;
+      button {
+         display: none;
+      }
+   }
+   .child4hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+   }
+   .hero-container {
+      width: 90%;
+   }
+ .img-hero {
+   width: 320px;
+ }
+ .container2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 90%;
+   justify-content: center;
+ }
+ .p-cont2 {
+   Width: 320px;
+   line-height: 25px;
+   text-align: center;
+ }
+ .card-container2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%; 
+ }
+ h4 {
+   text-align: center;
+ }
+ .cont3-cards-wrap {
+   
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      justify-content: center;
+    
+ }
+
+}
 
 /* sm */
 @media (min-width: 640px) {}
@@ -263,3 +319,7 @@ svg:not(:root) {
 
 /* xxl */
 @media (min-width: 1536px) {}
+
+.hero-container {
+@container screen (min-width: 475px) {}
+}
