@@ -2,14 +2,37 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 
-
-footer {                                     /* selector for footer */
-   background-color: rgb(45, 49, 77);     /*  */
+footer {
+   background-color: rgb(45, 49, 77);
+   width: 1440px;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   width: 1440px;
-   height: 125px;
+   margin: 0 auto;
+   /* color: white; */
+}
+#logo_social_wrap {
+height: 140px;
+
+}
+.footer-link {
+   color: white;
+}
+#footer_wrap {
+   display: flex;
+   align-items: center;
+   width: 150px;
+}
+#social_wrap {
+   width: 145px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   /* display: inline; */
+}
+.svg-footer {
+   margin-top: 35px;
+   margin-left: 5px;
 }
 li {                                         /* selector for list items */
    list-style-type: none;
@@ -60,10 +83,10 @@ h1, .logo, h3 {                              /* selector for h1, logo, and h3 */
 
 } 
 button {                                     /* selector for buttons */
-   width: 190px;
-   height: 50px;
+   width: 160px;
+   height: 40px;
    border-radius: 120px;
-   background: linear-gradient(#33D35E, #2AB6D9);
+   background: linear-gradient(to right,#33D35E, #2AB6D9);
    color: rgb(255, 255, 255);
    border: none;
 }
@@ -160,6 +183,7 @@ h5:hover {
 }
 .li4footer {
    padding: 4px;
+   color: white;
 }
 .small4continfooter {
    padding-top: 5px;
@@ -233,7 +257,7 @@ body {
 }
 
 .menu.active {
-   display: block;
+   /* display: block; */
 }
 a {
    text-decoration: none;
@@ -247,7 +271,99 @@ svg:not(:root) {
 }
 
 /* xs */
-@media (min-width: 475px){}
+@media  (max-width: 375px){
+
+
+   header { 
+      display: flex;
+      justify-content: space-between;
+      height:50px;
+      align-items: center;
+      button {
+         display: none;
+      }
+   }
+   .child4hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+   }
+   .hero-container {
+      width: 90%;
+   }
+ .img-hero {
+   width: 320px;
+ }
+ .container2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 90%;
+   justify-content: center;
+ }
+ .p-cont2 {
+   Width: 320px;
+   line-height: 25px;
+   text-align: center;
+ }
+ .card-container2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%; 
+ }
+ h4 {
+   text-align: center;
+ }
+ .cont3-cards-wrap {
+   
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      justify-content: center;
+    
+ }
+ footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+
+
+.div4footerB {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.footerul {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-left: 0px;
+   margin-bottom: 0px;
+   padding-top: 20px;
+}
+ul {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-left: 0px;
+   margin-top: 0px;
+}
+.Binfootercont {
+   height: 37px;
+
+}
+ }
+
+}
 
 /* sm */
 @media (min-width: 640px) {}
@@ -263,3 +379,18 @@ svg:not(:root) {
 
 /* xxl */
 @media (min-width: 1536px) {}
+
+.hero-container {
+@container screen (min-width: 475px) {}
+}
+.svg-footer {
+color: white;
+height: 20px;
+width: 20px;
+}
+svg :hover {
+color: rgb(48, 200, 143);
+}
+#logo_social_wrap {
+   display: inline;
+}
